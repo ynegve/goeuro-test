@@ -20,7 +20,7 @@ public class JSONReader implements Iterable<List<Object>> {
 		this.urlString = urlString;
 	}
 	
-	//what if row is null!!!
+	//Reads the JSON stream until first set of values are read 
 	private List<Object> parseNextObject(){
 		List<Object> row = new ArrayList<Object>();
 

@@ -5,6 +5,7 @@ import java.io.IOException;
 
 public class UrlToCsv {
 
+	// First argument should be the city name
 	public static void main(String[] args) throws IOException, Exception {
 		
 		if(args.length > 0 && args[0]!= null && args[0].length() > 0){
